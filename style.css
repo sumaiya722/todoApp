@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+body{
+    background-color: rgba(0, 0, 0, 0.505);
+}
+.container{
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+}
+.container form{
+    margin-top: 50px;
+}
+.top-heading{
+    margin: 10px;
+    text-align: center;
+}
+form{
+    width: 70%;
+    max-width: 600px;
+}
+.input-container{
+    /* justify-content: center; */
+    display: flex;
+    align-items: center;
+    margin: 20px;
+width: 100%;
+}
+#inputBox{
+    width: 70%;
+    height: 40px;
+    border: none;
+    outline: none;
+    padding-left: 10px;
+    border-radius: 10px;
+}
+#add{
+    margin-left: 10px;
+    font-size:large;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    background-color: rgb(127, 206, 255);
+    color: white;
+    box-shadow: 2px 2px 10px 1px black;
+}
+#add:hover{
+    cursor: pointer;
+}
+.item{
+    background-color: rgba(144, 127, 255, 0.726);
+    display: flex;
+    font-size: x-large;
+    padding: 20px;
+    margin: 10px;
+}
+.item p{
+    flex-basis: 80%;
+}
+.icon-container{
+    flex-basis: 20%;
+}
+.icon-container button{
+    background-color: transparent;
+    font-size: x-large;
+    border: none;
+}
+.fas{
+    cursor: pointer;
+    font-size: x-large;
+    transition: all 0.3s;
+}
+.fas:hover{
+    transform: scale(1.3);
+}
+.hidden{
+    visibility: hidden;
+}
+.deleted-text{
+    text-decoration: line-through;
+    color: brown;
+}
+.deleted-text span{
+    color: black;
+}
+.fade{
+    background-color: rgba(0, 0, 0, 0.194);
+}
